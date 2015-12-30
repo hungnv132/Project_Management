@@ -1,0 +1,85 @@
+@font-face {
+    		font-family: Roboto-regular;
+    		src: url('../fonts/Roboto-Regular-webfont.woff') format('woff'),
+				 url('../fonts/Roboto-Regular-webfont.eot?iefix') format('eot'),
+	    		   url('../fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+	    		   url('../fonts/Roboto-Regular-webfont.svg#webfont') format('svg');
+		}
+
+	@font-face {
+    		font-family: Roboto-bold;
+    		src: url('../fonts/Roboto-Bold-webfont.woff') format('woff'),
+				 url('../fonts/Roboto-Bold-webfont.eot?iefix') format('eot'),
+	    		   url('../fonts/Roboto-Bold-webfontt.ttf') format('truetype'),
+	    		   url('../fonts/Roboto-Bold-webfont.svg#webfont') format('svg');
+		}
+		@font-face {
+    		font-family: Roboto-medium;
+    		src: url('../fonts/Roboto-Medium-webfont.woff') format('woff'),
+				 url('../fonts/Roboto-Medium-webfont.eot?iefix') format('eot'),
+	    		   url('../fonts/Roboto-Medium-webfontt.ttf') format('truetype'),
+	    		   url('../fonts/Roboto-Medium-webfont.svg#webfont') format('svg');
+		}
+		@font-face {
+    		font-family: Amadeus;
+    		src: url('../fonts/Amadeus-webfontt.woff') format('woff'),
+				 url('../fonts/Amadeus-webfont.eot?iefix') format('eot'),
+	    		   url('../fonts/Amadeus-webfont.ttf') format('truetype'),
+	    		   url('../fonts/Amadeus-webfont.svg#webfont') format('svg');
+		}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas,
+	details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+	output, ruby, section, summary, time, mark, audio, video, .container {
+	border: 0;
+	font-size: 14px;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', sans-serif; 
+	font-weight: normal;
+	font-style: normal;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block
+}
+
+body {
+	line-height: 1
+}
+
+ol, ul {
+	list-style: none
+}
+
+blockquote, q {
+	quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	color: none;
+	
+}
+
+
+
+

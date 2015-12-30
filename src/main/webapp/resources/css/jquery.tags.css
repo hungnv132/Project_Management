@@ -1,0 +1,49 @@
+.tag-box .tag{
+	position:relative;
+	/* background-color: #d6e3ef; */
+	padding: 5px;
+	margin-right: 5px;
+	margin-bottom: 8px;
+	font-size: 15px;
+	display: inline-block;
+	/* color: black; */
+}
+.tag-box .tag:hover{
+	cursor: pointer;
+	color: #388189;
+}
+
+.tag-box .tag-modify{
+	width:35px;
+	position:absolute;
+	top: -18px;
+	right: 0%; 
+	display: none;
+	padding-right:2px;
+	text-align: right;
+}
+.tag-box .tag-modify i{
+	margin-right: 0px;
+	font-size: 13px;
+	color: #838383;
+}
+
+.tag-box .tag:hover .tag-modify {
+	display: inline;
+}
+.tag-box .tag .tag-modify i:hover{
+	color: black;
+}
+
+.tag-box .new-tag-form{
+	width: 200px;
+	/* float:left;  */
+}
+.tag-box .btn-add-tag{
+	 float:right;
+	padding: 5px;
+}
+.tag-box .tag-area{
+	margin-top: 8px;
+	margin-left: 12px;
+}

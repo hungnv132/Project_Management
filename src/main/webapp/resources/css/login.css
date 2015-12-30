@@ -1,0 +1,71 @@
+body{
+	 background-color: 	#d2d6de; 
+}
+.wrapper {
+	background-color: white;
+	border: 0px solid #3c8dbc;
+	border-top: 6px solid #3c8dbc;
+	margin: 100px auto;
+	width: 380px;
+	/* border-radius: 5px 5px 0px 0px ; */
+	padding: 10px 15px;
+	padding-bottom: 20px;
+}
+.title{
+	text-align: center;
+	margin-top: 10px;
+	
+}
+
+div.row {
+	margin-top: 20px;
+}
+
+div.row  div:first-child {
+	text-align: left;
+	height: 37px;
+	line-height: 37px;
+	font-size: 14px;
+	
+	/* border: 1px solid red; */
+}
+#loginSubmit{
+	border-radius:0px;
+}
+
+.has-error{
+	border: 1px solid red;
+}
+.my-alert-danger{
+	background-color: #f2dede !important;
+}
+
+.errors{
+	display:block;
+	color: red;
+}
+div.error-box{
+	margin-top:10px !important;
+}
+
+.close-modal {
+	/* background: url("../icons/close24.ico") no-repeat; */
+	position: absolute;
+	top: 10px;
+	right: 8px;
+	/* height: 20px; */
+	/* width: 20px; */
+	/* border: 1px solid red; */
+	font-size: 20px;
+}
+
+.close-modal:hover {
+	cursor: pointer;
+}
+
+.my-modal-header {
+	padding: 2px;
+	padding-left: 10px;
+	text-align: center;
+	/* border: 1px solid red; */
+}
